@@ -1,0 +1,740 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+scrape_configs:
+  - job_name: "coffea-casa"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "oksana_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/oksana.shadura@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "oksana_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/oksana.shadura@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "carl_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/clundstedt@unl.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "carl_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/clundstedt@unl.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "durbar_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/durbardibyo@gmail.com/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "durbar_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/durbardibyo@gmail.com/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "garhan_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/garhan.attebury@unl.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "garhan_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/garhan.attebury@unl.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "jthiltges_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/jthiltges@unl.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "jthiltges_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/jthiltges@unl.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "alessandro_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/alessandro.caratelli@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "alessandro_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/alessandro.caratelli@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "alexander-held_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/alexander.held@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "alexander-held_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/alexander.held@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "alexander-paasch_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/alexander.paasch@uni-hamburg.de/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "alexander-paasch_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/alexander.paasch@uni-hamburg.de/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "andrea-malara_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/andrea.malara@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "andrea-malara_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/andrea.malara@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "andrew-wightman_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/andrew.steven.wightman@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "andrew-wightman_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/andrew.steven.wightman@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "andrzej-novak_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/andrzej.novak@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "andrzej-novak_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/andrzej.novak@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "bengal_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/bengal1@illinois.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "bengal_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/bengal1@illinois.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "bjhong_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/bjhong@korea.ac.kr/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "bjhong_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/bjhong@korea.ac.kr/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "blin_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/blin@cs.wisc.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "blin_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/blin@cs.wisc.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "brian-cruz_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/brian.cruz2@upr.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "brian-cruz_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/brian.cruz2@upr.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"] 
+  - job_name: "cc14398_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/cc14398@bristol.ac.uk/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "cc14398_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/cc14398@bristol.ac.uk/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "cedric-verstege_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/cedric.verstege@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "cedric-verstege_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/cedric.verstege@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "clemens-lange_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/clemens.lange@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "clemens-lange_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/clemens.lange@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "d-pugnere_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/d.pugnere@ipnl.in2p3.fr/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "d-pugnere_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/d.pugnere@ipnl.in2p3.fr/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "daniil-ponomarenko_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/daniil.ponomarenko@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "daniil-ponomarenko_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/daniil.ponomarenko@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "david-koch_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/david.koch@campus.lmu.de/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "david-koch_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/david.koch@campus.lmu.de/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "davide-valsecchi_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/davide.valsecchi@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "davide-valsecchi_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/davide.valsecchi@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "douglas-benjamin_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/douglas.benjamin@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "douglas-benjamin_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/douglas.benjamin@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "edgar-fernando_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/edgar.fernando.carrera.jarrin@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "edgar-fernando_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/edgar.fernando.carrera.jarrin@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "engin-eren_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/engin.eren@desy.de/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "engin-eren_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/engin.eren@desy.de/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "guillermo-fidalgo_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/guillermo.fidalgo@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "guillermo-fidalgo_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/guillermo.fidalgo@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "gwatts_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/gwatts@uw.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "gwatts_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/gwatts@uw.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "haeyun_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/haeyun@korea.ac.kr/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "haeyun_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/haeyun@korea.ac.kr/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "hamza-hanif_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/hamza.hanif@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "hamza-hanif_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/hamza.hanif@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "hoyong_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/hoyong5419@korea.ac.kr/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "hoyong_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/hoyong5419@korea.ac.kr/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "ianna-osborne_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/ianna.osborne@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "ianna-osborne_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/ianna.osborne@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "ivukotic_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/ivukotic@uchicago.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "ivukotic_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/ivukotic@uchicago.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "jaehyeokyoo_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/jaehyeokyoo@korea.ac.kr/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "jaehyekyoo_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/jaehyeokyoo@korea.ac.kr/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "jayashri_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/jayashri94@korea.ac.kr/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "jayashri_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/jayashri94@korea.ac.kr/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "jli301_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/jli301@illinois.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "jli301_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/jli301@illinois.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "juan-baptista_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/juan.baptista.leite@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "juan-baptista_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/juan.baptista.leite@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "judita-mamuzic_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/judita.mamuzic@gmail.com/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "judita-mamuzic_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/judita.mamuzic@gmail.com/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "kati-lassila_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/kati.lassila-perini@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "kati-lassila_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/kati.lassila-perini@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "kilian-lieret_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/kilian.lieret@lmu.de/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "kilian-lieret_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/kilian.lieret@lmu.de/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "kirby_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/kirby@fnal.gov/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "kirby_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/kirby@fnal.gov/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "kyungeon-choi_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/kyungeon.choi@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "kyungeon-choi_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/kyungeon.choi@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "kreczko_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/l.kreczko@bristol.ac.uk/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "kreczko_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/l.kreczko@bristol.ac.uk/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "lindsey-gray_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/lindsey.gray@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "lindsey-gray_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/lindsey.gray@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "martin-barisits_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/martin.barisits@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "martin-barisits_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/martin.barisits@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "mason-proffitt_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/mason.proffitt@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "mason-proffitt_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/mason.proffitt@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "matous-adamec_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/matous.adamec@huskers.unl.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "matous-adamec_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/matous.adamec@huskers.unl.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "matteo-marchegiani_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/matteo.marchegiani@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "matteo-marchegiani_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/matteo.marchegiani@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "matthew-feickert_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/matthew.feickert@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "matthew-feickert_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/matthew.feickert@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "matthew-james_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/matthewjames.wilson@mail.utoronto.ca/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "matthew-james_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/matthewjames.wilson@mail.utoronto.ca/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "mfeicker_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/mfeicker@illinois.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "mfeicker_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/mfeicker@illinois.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "michel-hernandez_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/michel.hernandez.villanueva@desy.de/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "michel-hernandez_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/michel.hernandez.villanueva@desy.de/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "ming-yan-lee_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/ming-yan.lee@physik.rwth-aachen.de/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "ming-yan-lee_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/ming-yan.lee@physik.rwth-aachen.de/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "mirco-tracolli_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/mirco.tracolli@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "mirco-tracolli_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/mirco.tracolli@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "mohamed-aly_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/mohamed.aly@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "mohamed-aly_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/mohamed.aly@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "msn_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/msn@illinois.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "msn_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/msn@illinois.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "nicholas-james_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/nicholas.james.manganelli@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "nicholas-james_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/nicholas.james.manganelli@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "nikolai-hartmann_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/nikolai.hartmann@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "nikolai-hartmann_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/nikolai.hartmann@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "ram-krishna-dewanjee_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/ram.krishna.dewanjee@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "ram-krishna-dewanjee_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/ram.krishna.dewanjee@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "rappoccio_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/rappoccio@gmail.com/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "rappoccio_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/rappoccio@gmail.com/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "raul-iraq_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/raul.iraq.rabadan.trejo@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "raul-iraq_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/raul.iraq.rabadan.trejo@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "rind_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/rind@bnl.gov/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "rind_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/rind@bnl.gov/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "sandra_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/sandra@if.ufrj.br/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "sandra_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/sandra@if.ufrj.br/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "sdamarest_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/sdemarest2019@my.fit.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "sdamarest_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/sdemarest2019@my.fit.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "steadyslow_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/steadyslow@korea.ac.kr/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "steadyslow_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/steadyslow@korea.ac.kr/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "sukeerthi-dharani_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/sukeerthi.dharani@desy.de/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "sukeerthi-dharani_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/sukeerthi.dharani@desy.de/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "tal-van-daalen_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/tal.van.daalen@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "tal-van-daalen_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/tal.van.daalen@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "tommaso-tedeschi_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/tommaso.tedeschi@cern.ch/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "tommaso-tedeschi_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/tommaso.tedeschi@cern.ch/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "wingren_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/wingren2@illinois.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "wingren_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/wingren2@illinois.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "yates_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/yates.313@osu.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "yates_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/yates.313@osu.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "yimuchen_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/yimuchen@umd.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "yimuchen_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/yimuchen@umd.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "ywan_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/ywan2@nd.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "ywan_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/ywan2@nd.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "zubair-bhatti_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/zubair.bhatti@nyu.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "zubair-bhatti_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/zubair.bhatti@nyu.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "zwu_dask"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/zwu26@unl.edu/proxy/8787/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  - job_name: "zwu_jupyterhub"
+    bearer_token:  71f4f2fee9884adea92c25cf3bbd4974 
+    metrics_path: "/user/zwu26@unl.edu/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  
