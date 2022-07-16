@@ -7,6 +7,13 @@ scrape_configs:
     metrics_path: "/metrics"
     static_configs:
       - targets: ["coffea-opendata.casa"]
+
+  - job_name: "jupyterhub-servers"
+    bearer_token:  a9b5f5e9eb9a4a228f4433c38829cd9f 
+    metrics_path: "/metrics"
+    static_configs:
+      - targets: ["coffea-opendata.casa"]
+  
   - job_name: "oksana_dask"
     bearer_token:  a9b5f5e9eb9a4a228f4433c38829cd9f 
     metrics_path: "/user/oksana.shadura@cern.ch/proxy/8787/metrics"
